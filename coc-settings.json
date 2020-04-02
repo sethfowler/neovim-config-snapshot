@@ -1,0 +1,11 @@
+{
+   "languageserver": {
+        "clangd": {
+            "enable": true,
+            "command": "/usr/local/Cellar/llvm/9.0.0_1/bin/clangd",
+            "rootPatterns": ["compile_commands.json", ".vim/", ".git/", ".hg/"],
+            "filetypes": ["c", "cpp", "objc", "objcpp"],
+            "args": ["-background-index"]
+        }
+    }
+}
